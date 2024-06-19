@@ -1,5 +1,5 @@
 ---
-title: $S^3$-Gaussian paper reading
+title: S3-Gaussian paper reading
 published: 2024-06-17
 description: "New method for temperal-spatial 3DGS."
 tags: ["paperreading", "Blogging", "GaussianSplatting"]
@@ -16,6 +16,7 @@ Project page:[https://wzzheng.net/S3Gaussian/](https://wzzheng.net/S3Gaussian/)
 ## Pipeline
 
 <center>
+
 ![pipeline](./image00.png)
 </center>
 
@@ -28,7 +29,8 @@ Project page:[https://wzzheng.net/S3Gaussian/](https://wzzheng.net/S3Gaussian/)
 从spatial到temporal-spatial:把高斯基元(Gaussian Primitive)四个位置特征(x,y,z,t)，分别放在两个voxel grid里面，spatial(xy,xz,yz平面)和temporal(xt,yt,zt平面)。
 
 <center>
-![pipeline](./image01.png)
+
+![3D->4D](./image01.png)
 </center>
 
 像instant-ngp一样，每个voxel grid上的顶点，有d维的特征信息。将xyzt输入通过两个mlp可以得到这个voxel grid每个vertex上的特征。
