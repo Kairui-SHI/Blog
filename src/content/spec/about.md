@@ -1,5 +1,6 @@
 # About
-This is Scarick, aka skr(Chinese name abbreviation). Love the go, ACGN.
+This is Scarick, aka skr(Chinese name abbreviation). Love the go(Weiqi, an old Chinese chest) and ACGN.
 
-I'd like to share my favorite songs and Animation.
+
+<span style="color: red;">I'd like to share my favorite songs and Animation.</span>
 ::github{repo="Kairui-SHI/myACGN"}
