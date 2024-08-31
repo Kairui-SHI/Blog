@@ -4,7 +4,7 @@ published: 2024-06-19
 description: "Superised pcd registeration."
 tags: ["paperreading", "Blogging", "pcd-registeration"]
 category: paper reading
-draft: True
+draft: False
 ---
 
 ## Paper Reading
@@ -42,4 +42,4 @@ Project page:[https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_OMNet_Lea
 
 > This is my github link: [Source](https://github.com/Kairui-SHI)
 >
-
+> 参考文献：[Xu, H., Liu, S., Wang, G., Liu, G., & Zeng, B. (2021). OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration. 2021 IEEE/CVF International Conference on Computer Vision (ICCV), 3112-3121.](https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_OMNet_Learning_Overlapping_Mask_for_Partial-to-Partial_Point_Cloud_Registration_ICCV_2021_paper.pdf)
