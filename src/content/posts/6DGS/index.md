@@ -41,5 +41,4 @@ Project page:[https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_OMNet_Lea
 有意思的是，居然在未见过的场景类别中，也能够有效地进行pcd registeration。说明OMNet能够有效提取识别出局部和全局特征。计算出该轮次的R和T，再到下一轮中投入使用，输出更准确的。
 
 > This is my github link: [Source](https://github.com/Kairui-SHI)
->
 
