@@ -29,6 +29,9 @@ importers:
       '@fontsource/roboto':
         specifier: ^5.0.12
         version: 5.0.12
+      '@iconify-json/academicons':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@swup/astro':
         specifier: ^1.4.0
         version: 1.4.0(@types/babel__core@7.20.5)
@@ -1069,6 +1072,9 @@ packages:
 
   '@fontsource/roboto@5.0.12':
     resolution: {integrity: sha512-x0o17jvgoSSbS9OZnUX2+xJmVRvVCfeaYJjkS7w62iN7CuJWtMf5vJj8LqgC7ibqIkitOHVW+XssRjgrcHn62g==}
+
+  '@iconify-json/academicons@1.2.2':
+    resolution: {integrity: sha512-rOcj3ESbwXlT2pKQisnohQ9quXopb0/XdHfjTAY9vHEIR4c1hX9itKl0wPAqg/gKTvWJZr218Fgd4oKvJPZ+uQ==}
 
   '@iconify-json/fa6-brands@1.1.18':
     resolution: {integrity: sha512-vmeJP06Xbj0XbVGiBHg0q8H3M894d4bGXKCmiHt6JqUdpiGcIV7r96N+BOU4ZS1+hvpV57fTfXlFPiUfxAIfkg==}
@@ -5975,6 +5981,10 @@ snapshots:
   '@fontsource-variable/jetbrains-mono@5.0.20': {}
 
   '@fontsource/roboto@5.0.12': {}
+
+  '@iconify-json/academicons@1.2.2':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/fa6-brands@1.1.18':
     dependencies:
