@@ -7,7 +7,7 @@ category: paper review
 draft: False
 ---
 
-## Paper Reading
+## Paper Review
 
 论文阅读：$S^3$Gaussian: Self-Supervised Street Gaussians for Autonomous Driving
 

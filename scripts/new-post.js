@@ -22,17 +22,25 @@ Usage: npm run new-post -- <filename>`)
 
 let fileName = args[0]
 
+const targetDir = "./src/content/posts/"
+// make new folder
+const targetFolder = path.join(targetDir, fileName)
+
 // Add .md extension if not present
 const fileExtensionRegex = /\.(md|mdx)$/i
 if (!fileExtensionRegex.test(fileName)) {
   fileName += ".md"
 }
 
-const targetDir = "./src/content/posts/"
-const fullPath = path.join(targetDir, fileName)
+// const fullPath = path.join(targetDir, fileName)
 
-if (fs.existsSync(fullPath)) {
-  console.error(`Error：File ${fullPath} already exists `)
+// if (fs.existsSync(fullPath)) {
+//   console.error(`Error：File ${fullPath} already exists `)
+//   process.exit(1)
+// }
+
+if (fs.existsSync(targetFolder)) {
+  console.error(`Folder ${targetFolder} already exists `)
   process.exit(1)
 }
 
@@ -47,6 +55,8 @@ draft: false
 ---
 `
 
-fs.writeFileSync(path.join(targetDir, fileName), content)
+// fs.writeFileSync(path.join(targetDir, fileName), content)
+fs.mkdirSync(targetFolder, { recursive: true })
+fs.writeFileSync(path.join(targetFolder, fileName), content)
 
-console.log(`Post ${fullPath} created`)
+console.log(`Post ${path.join(targetFolder, fileName)} created`)

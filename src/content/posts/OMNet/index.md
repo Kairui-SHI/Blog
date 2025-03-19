@@ -7,7 +7,7 @@ category: paper review
 draft: False
 ---
 
-## Paper Reading
+## Paper Review
 
 论文阅读：OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration
 
