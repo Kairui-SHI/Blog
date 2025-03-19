@@ -1,9 +1,9 @@
 ---
-title: S3-Gaussian paper reading
+title: S3-Gaussian 
 published: 2024-06-17
 description: "New method for temperal-spatial 3DGS."
 tags: ["paperreading", "Blogging", "GaussianSplatting"]
-category: paper reading
+category: paper review
 draft: False
 ---
 

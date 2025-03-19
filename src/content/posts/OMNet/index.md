@@ -1,9 +1,9 @@
 ---
-title: OMNet paper reading
+title: OMNet
 published: 2024-06-19
-description: "Superised pcd registeration."
+description: "PCD Feature Extraction and Registration."
 tags: ["paperreading", "Blogging", "pcd-registeration"]
-category: paper reading
+category: paper review
 draft: False
 ---
 

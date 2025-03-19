@@ -46,6 +46,16 @@ export const profileConfig: ProfileConfig = {
   bio: '如果能成为谁的心脏的话',
   links: [
     {
+      name: 'Google Scholar',
+      icon: 'fa6-brands:google-scholar',
+      url: 'https://scholar.google.com/citations?user=wUzuykAAAAAJ&hl',
+    },
+    {
+      name: 'CV',
+      icon: 'academicons:cv-square',
+      url: 'https://kairui-shi.github.io',
+    },
+    {
       name: 'Bilibili',
       icon: 'fa6-brands:bilibili',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
